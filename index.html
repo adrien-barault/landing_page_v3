@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head> 
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>malta_pastry_class</title>
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Didact+Gothic&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+  </head>
+  <body>
+<div class="conteneur">
+  <h1 class="titre-1">MALTA PASTRY CLASS</h1>
+    <h3 class="titre-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vitae lacus gravida nisl venenatis sodales. Proin convallis, tortor ac molestie lacinia, enim lectus vehicula lectus, mattis tristique lorem velit ut ipsum. Ut eget aliquet mi, non scelerisque est. Morbi eget nisi est. Sed eu cursus augue, ac scelerisque est.</h3>
+    <a class="button-notifyme" href="#image1">NOTIFY ME</a>
+    <!-- début gestion lightbox -->
+  <div class="lightbox short-animate" id="image1">
+    <span class="long-animate">
+    <div class="iframe-container"><iframe id="JotFormIFrame-241201883276354" class="formulaire" title="Inscription" onload="window.parent.scrollTo(0,0)"  allowtransparency="true"  src="https://form.jotform.com/241201883276354"  frameborder="0"  scrolling="no">
+      </iframe></div>
+    <script src='https://cdn.jotfor.ms/s/umd/latest/for-form-embed-handler.js'></script>
+<script>window.jotformEmbedHandler("iframe[id='JotFormIFrame-241201883276354'", "https://form.jotform.com/")</script>
+    </span>
+  </div>
+  <div id="lightbox-controls" class="short-animate">
+    <a id="close-lightbox" class="long-animate" href="#!">Close Lightbox</a>
+  </div>
+<script src="https://use.fontawesome.com/175d77714f.js"></script>
+<!-- fin gestion lightbox -->
+  <div class="social-pannel">
+    <div class="social-icon">
+      <a target="_blank" href="https://www.facebook.com/adrienbarault">
+        <i class="fa fa-instagram fa-lg"></i>      
+    </div>
+  </div>  
+</div>
+<style>
+.conteneur {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.3) url(https://images.unsplash.com/photo-1542826438-bd32f43d626f?q=80&w=1984&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-blend-mode: darken;
+  text-align: center;
+  overflow-y: auto;
+  scrollbar-width: thin;
+}
+.titre-1 {
+  font-family: "Josefin Sans", sans-serif;
+  margin-top: 14rem;
+  font-size: 6rem;
+  letter-spacing: -.01em;
+  color: white;
+  text-rendering: optimizeLegibility;
+  text-align: center;
+  font-weight: bold;
+}
+
+.titre-2 {
+  font-family: "Didact Gothic", sans-serif;
+  text-align: center;
+  text-rendering: optimizeLegibility;
+  font-weight: 200;
+  color: white;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+}
+
+.button-notifyme {
+  font-family: "Josefin Sans", sans-serif;
+  display: inline-block;
+  text-decoration: none;
+  text-rendering: optimizeLegibility;
+  color: white;
+  font-size: 1rem;
+  text-rendering: optimizeLegibility;
+  border: solid white 2px;
+  background-color: transparent;
+  padding-top: 15px;
+  padding-bottom: 12px;
+  padding-left: 40px;
+  padding-right: 40px;
+  margin: 60px;
+  letter-spacing: .2rem;
+  cursor: pointer;
+	transition: 0.1s;
+	-moz-transition: 0.1s;
+	-webkit-transition: 0.1s;
+	-o-transition: 0.1s; 
+}
+.button-notifyme:hover {
+  color: black;
+  background-color: white;
+}
+
+.social-pannel{
+  text-align: center;
+}
+.social-icon {
+	display: inline-block;
+	width: 0px;
+	height: 0px;
+	padding: 25px;
+	border-radius: 100px;
+  margin:0 5px 0 0;
+	cursor:pointer;
+	background:#FFFFFF;
+	transition: 0.5s;
+	-moz-transition: 0.5s;
+	-webkit-transition: 0.5s;
+	-o-transition: 0.5s; 
+}
+.social-icon:hover {
+	background:#262626;
+	transition: 0.5s;
+	-moz-transition: 0.5s;
+	-webkit-transition: 0.5s;
+	-o-transition: 0.5s;
+	-webkit-filter:	drop-shadow(0 1px 18px rgba(0,0,0,.9));
+	-moz-filter: 	drop-shadow(0 1px 18px rgba(0,0,0,.9));
+	-ms-filter: 		drop-shadow(0 1px 18px rgba(0,0,0,.9));
+	-o-filter: 		drop-shadow(0 1px 18px rgba(0,0,0,.9));
+	filter: 			drop-shadow(0 1px 18px rgba(0,0,0,.9));	 
+}
+
+.fa-instagram {
+  color: #262626;
+	position: relative;
+	left: -8px;
+	top: -10px;
+  	transition: 0.5s;
+	-moz-transition: 0.5s;
+	-webkit-transition: 0.5s;
+	-o-transition: 0.5s;
+}
+.social-icon:hover .fa-instagram {
+  color: rgba(255,255,255,1);
+  	transition: 0.5s;
+	-moz-transition: 0.5s;
+	-webkit-transition: 0.5s;
+	-o-transition: 0.5s;
+}
+
+/* début gestion lightbox */
+* {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.short-animate {
+  -webkit-transition:.5s ease-in-out;
+  -moz-transition:.5s ease-in-out;
+  -ms-transition:.5s ease-in-out;
+  -o-transition:.5s ease-in-out;
+  transition:.5s ease-in-out;
+}
+.long-animate {
+  -webkit-transition: .5s .5s ease-in-out;
+  -moz-transition: .5s .5s ease-in-out;
+  -ms-transition: .5s .5s ease-in-out;
+  -o-transition:.5s .5s ease-in-out;
+  transition:.5s .5s ease-in-out;
+}
+.lightbox {
+  position:fixed;
+  top:-200%;
+  bottom:100%;
+  left:0;
+  right:0;
+  background:rgba(0,0,0,0.75);
+  z-index:501;
+  opacity:0;
+}
+.lightbox span {
+	position:relative;
+  margin-left:auto;
+  margin-right:auto;
+  text-align: center;
+  display:block;
+  vertical-align: middle;
+  top: 15%;
+}
+#lightbox-controls {
+  position:fixed;
+  height:70px;
+  width:70px;
+  top:-70px;
+  right:0;
+  z-index:502;
+  background:rgba(0,0,0,.1);
+}
+#close-lightbox {
+  display:block;
+  position:absolute;
+  overflow:hidden;
+  height:50px;
+  width:50px;
+  text-indent:-5000px;
+  right:10px;
+  top:10px;
+  -webkit-transform:rotate(45deg);
+  -moz-transform:rotate(45deg);
+  -ms-transform:rotate(45deg);
+  -o-transform:rotate(45deg);
+  transform:rotate(45deg);
+}
+#lightbox-controls:hover {
+  background-color: rgba(255, 0, 0, 0.5);
+}
+#close-lightbox:before {
+	content:'';
+  display:block;
+  position:absolute;
+  height:0px;
+  width:3px;
+  left:24px;
+  top:0;
+  background:white;
+  border-radius:2px;
+  -webkit-transition: .5s .5s ease-in-out;
+  -moz-transition: .5s .5s ease-in-out;
+  -ms-transition: .5s .5s ease-in-out;
+  -o-transition:.5s .5s ease-in-out;
+  transition:.5s .5s ease-in-out;
+}
+#close-lightbox:after {
+	content:'';
+  display:block;
+  position:absolute;
+  width:0px;
+  height:3px;
+  top:24px;
+  left:0;
+  background:white;
+  border-radius:2px;
+  -webkit-transition: .5s 1s ease-in-out;
+  -moz-transition: .5s 1s ease-in-out;
+  -ms-transition: .5s 1s ease-in-out;
+  -o-transition:.5s 1s ease-in-out;
+  transition:.5s 1s ease-in-out;
+}
+.lightbox:target {
+  top:0%;
+  bottom:0%;
+  opacity:1;
+}
+.lightbox:target span {
+  max-width:100%;
+  max-height:100%;
+}
+.lightbox:target ~ #lightbox-controls {
+  top:0px;
+}
+.lightbox:target ~ #lightbox-controls #close-lightbox:after {
+  width:50px;
+}
+.lightbox:target ~ #lightbox-controls #close-lightbox:before {
+  height:50px;
+}
+@media only screen and (max-width: 640px) {
+  iframe {
+    width: 75vw;
+    height: 75vh;
+}
+}
+.iframe-container {
+  height: 400px;
+  width: 50%;
+  overflow: hidden;
+  text-align: center;
+  border-color: red;
+  margin: 0 auto;
+}
+.formulaire {
+  width: 100%;
+  height: 500px;
+  border: none;
+  position: relative;
+  display: inline-block;
+  top: -20px;
+}
+/* fin gestion lightbox */
+</style>
+</body>
+</html>
